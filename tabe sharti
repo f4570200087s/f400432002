@@ -1,0 +1,5 @@
+int n;
+cout << "please enter an enteger number :";
+cin >>n;
+cout << "your enter:" << n << end1;
+return0;
