@@ -1,0 +1,36 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int x,y ;
+    cout << " pleaseenter tow integer number : ";
+    cin >> x,y ;
+    if(x==y)
+    {
+    cout << " x is anqual with y" << end1;
+    }
+    if(x!=y)
+    {
+    cout << " x not anqual with y" << end1;
+    }
+    if(x>y)
+    {
+    cout << " x is greater than y" << end1;
+    }
+    if(x<y)
+    {
+    cout << " x is lower than y" << end1;
+    }
+    if(x>=y)
+    {
+    cout << " x is greater or aqual with y" << end1;
+    }
+    if(x<=y)
+    {
+    cout << " x is lower or aqual with y" << end1;
+    }
+
+    return 0;
+}
