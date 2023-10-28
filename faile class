@@ -1,0 +1,14 @@
+#include <string>
+
+class Account{
+    public:
+    std::string getName() const{;
+    name="ABASS";
+    return name;
+}
+    void setName(std::string thename){
+    name=theName;
+    }
+    private:
+    std::string name:
+}
