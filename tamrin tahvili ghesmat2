@@ -1,0 +1,14 @@
+#include <iostream>
+#include "Math.h"
+
+using namespace std;
+
+int main(){
+    int n;
+    string message;
+    Math math;
+    cout << " Please enter the number : ";
+    cin >> n;
+    math.isprime(n)? message = "is prime": message = "not prime";
+    cout << "the number " << n << " " << message;
+}
