@@ -1,23 +1,20 @@
-int main()
-{
-    int n, i=2;
-    cin >> n;
-    while (i < n)
-    {
-        if (n % i == 0)
+class Math{
+    public :
+    bool isprime(int n){
+        if(n<2)
         {
-        break;
-        i++;
+            return false;
     }
-    if (i < n)
+    bool res{true};
+    int cnt{2};
+    while(cnt<n)
     {
-        cout << " no is prime :";
+        if(n % cnt == 0)
+        {
+            res = false;
+        }
+        cnt++;
     }
-    else
-    {
-       cout << "yes is prime";
+    return res;
     }
-
-
-    return 0;
 }
